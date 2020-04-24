@@ -1,0 +1,45 @@
+frontend/.DS_STORE
+frontend/dist/
+frontend/bazel-out
+frontend/integration/bazel/bazel-*
+frontend/*.log
+frontend/node_modules
+
+# Include when developing application packages.
+frontend/pubspec.lock
+frontend/.c9
+frontend/.idea/
+frontend/.devcontainer/*
+frontend/!.devcontainer/README.md
+frontend/frontend/!.devcontainer/recommended-devcontainer.json
+frontend/!.devcontainer/recommended-Dockerfile
+frontend/.settings/
+frontend/.vscode/launch.json
+frontend/.vscode/settings.json
+frontend/.vscode/tasks.json
+frontend/*.swo
+frontend/modules/.settings
+frontend/modules/.vscode
+frontend/.vimrc
+frontend/.nvimrc
+
+# Don't check in secret files
+frontend/*secret.js
+
+# Ignore npm/yarn debug log
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# build-analytics
+frontend/.build-analytics
+
+# rollup-test output
+frontend/modules/rollup-test/dist/
+
+# User specific bazel settings
+frontend/.bazelrc.user
+
+frontend/.notes.md
+frontend/baseline.json
+
+backend/node_modules
